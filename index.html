@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
     <title>PreEntrega</title>
 </head>
 <body>
@@ -11,8 +12,31 @@
     <hr>
     <h2>Resultado de las compras</h2>
 
+    <h2>Seleccione un pais</h2>
+    <select name="paises" id="paises">
+        <option value="Default">Seleccione un pais</option>
+    </select>
+    <p id="info"></p>
+    <div class="mode">
+        <h2>Modo oscuro <input type="checkbox" id="checkbox"></h2>
+        <h3 class="modoActual"></h3>
+        <button onClick="window.location.reload();">Actualizar pagina</button>
+    </div>
+    <br>
+    <h2>formulario</h2>
+    <form action="" id="form-register">
+        <input type="text" placeholder="Ingresa tu nombre" id="nombre">
+        <input type="submit" name="" id="registrar" value="Registrar">
+    </form>
+<br>
+    <button class="mostrarRegistro">Mostrar registrados</button>
+    <p id="lista"></p>
+    <div class="caja">
+        <p id="mensaje">Haz click y mantenlo :P</p>
+    </div>
+
     <script></script>
 
-    <script src="./js/main.js"></script> 
+    <script src="./js/3preEntrega.js"></script> 
 </body>
 </html>

@@ -1,0 +1,9 @@
+.caja{
+width: 320px;
+height: 400px;
+    box-sizing: border-box;
+    border: red 3px solid;
+    background-size:cover;
+  background-position:center;
+  background-repeat:no-repeat;	
+}
